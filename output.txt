@@ -1,0 +1,376 @@
+
+--- Juror score statistics for stage: 1 (without correction) ---
+Juror                Min   Max   Average Std Dev
+--------------------------------------------------
+Krzysztof Jabłoński  12.00 24.00 17.32   2.67   
+John Allison         9.00  24.00 17.35   3.29   
+Nelson Goerner       12.00 25.00 18.77   3.07   
+Wojciech Świtała     12.00 25.00 18.78   2.66   
+Dang Thai Son        14.00 24.00 18.80   2.63   
+Garrick Ohlsson      8.00  24.00 18.98   3.40   
+John Rink            13.00 25.00 19.05   2.80   
+Kevin Kenner         15.00 25.00 19.33   2.55   
+Ewa Pobłocka         14.00 24.00 19.44   2.83   
+Michel Beroff        15.00 25.00 19.56   2.94   
+Robert McDonald      15.00 24.00 19.82   2.55   
+K. Popowa-Zydroń     15.00 24.00 19.91   2.27   
+Piotr Paleczny       16.00 25.00 20.02   2.24   
+Momo Kodama          17.00 25.00 20.38   2.09   
+Akiko Ebi            16.00 25.00 20.73   2.51   
+Yulianna Avdeeva     18.00 25.00 20.82   1.86   
+Sa Chen              17.00 24.00 21.52   1.36   
+
+--- Juror score histograms for stage: 1  (without correction) ---
+
+--- Juror score histograms for stage: 1  (with correction) ---
+
+--- Juror score statistics for stage: 2 (without correction) ---
+Juror                Min   Max   Average Std Dev
+--------------------------------------------------
+Krzysztof Jabłoński  16.00 24.00 18.45   2.15   
+K. Popowa-Zydroń     15.00 24.00 19.03   2.07   
+Dang Thai Son        17.00 24.00 19.33   2.10   
+John Allison         15.00 24.00 19.55   2.40   
+Wojciech Świtała     16.00 24.00 19.77   2.02   
+Ewa Pobłocka         12.00 25.00 19.82   3.36   
+Garrick Ohlsson      16.00 25.00 20.05   2.41   
+Piotr Paleczny       16.00 25.00 20.15   2.10   
+Robert McDonald      16.00 24.00 20.19   1.83   
+Momo Kodama          16.00 25.00 20.43   2.45   
+John Rink            16.00 25.00 20.45   2.30   
+Kevin Kenner         17.00 24.00 20.45   2.04   
+Nelson Goerner       16.00 25.00 20.85   2.38   
+Akiko Ebi            17.00 24.00 20.98   2.44   
+Yulianna Avdeeva     20.00 24.00 21.35   1.19   
+Michel Beroff        18.00 25.00 21.48   2.08   
+Sa Chen              19.00 24.00 21.50   1.30   
+
+--- Juror score histograms for stage: 2  (without correction) ---
+
+--- Juror score histograms for stage: 2  (with correction) ---
+
+--- Juror score statistics for stage: 3 (without correction) ---
+Juror                Min   Max   Average Std Dev
+--------------------------------------------------
+Dang Thai Son        17.00 23.00 19.50   1.65   
+Ewa Pobłocka         14.00 24.00 19.67   2.85   
+Garrick Ohlsson      16.00 25.00 20.20   2.67   
+Robert McDonald      17.00 23.00 20.24   1.86   
+Krzysztof Jabłoński  17.00 25.00 20.25   1.92   
+K. Popowa-Zydroń     17.00 24.00 20.47   1.98   
+Sa Chen              17.00 24.00 20.50   1.67   
+Piotr Paleczny       18.00 23.00 20.74   1.52   
+John Allison         18.00 24.00 20.80   2.14   
+Kevin Kenner         17.00 25.00 21.00   2.36   
+Yulianna Avdeeva     20.00 23.00 21.00   1.03   
+Akiko Ebi            16.00 25.00 21.05   2.56   
+Wojciech Świtała     19.00 24.00 21.05   1.57   
+John Rink            18.00 25.00 21.20   2.26   
+Nelson Goerner       18.00 25.00 21.65   1.98   
+Momo Kodama          20.00 24.00 21.70   1.63   
+Michel Beroff        18.00 25.00 22.15   1.93   
+
+--- Juror score histograms for stage: 3  (without correction) ---
+
+--- Juror score histograms for stage: 3  (with correction) ---
+
+--- Juror score statistics for stage: final (without correction) ---
+Juror                Min   Max   Average Std Dev
+--------------------------------------------------
+Yulianna Avdeeva     15.00 21.00 17.82   1.83   
+Garrick Ohlsson      17.00 20.00 18.64   0.92   
+Ewa Pobłocka         16.00 24.00 19.82   2.44   
+Akiko Ebi            17.00 25.00 20.45   2.25   
+K. Popowa-Zydroń     17.00 23.00 20.50   2.01   
+Wojciech Świtała     19.00 23.00 20.64   1.50   
+Dang Thai Son        19.00 24.00 20.67   1.73   
+Kevin Kenner         16.00 24.00 20.73   2.37   
+Robert McDonald      19.00 23.00 20.78   1.39   
+Sa Chen              18.00 24.00 20.82   2.44   
+Krzysztof Jabłoński  19.00 24.00 21.09   1.92   
+Piotr Paleczny       18.00 24.00 21.18   2.04   
+John Rink            19.00 24.00 21.27   1.68   
+John Allison         18.00 25.00 21.55   2.34   
+Nelson Goerner       17.00 25.00 21.82   2.40   
+Momo Kodama          20.00 25.00 22.00   1.67   
+Michel Beroff        21.00 25.00 22.45   1.57   
+
+--- Juror score histograms for stage: final  (without correction) ---
+
+--- Juror score histograms for stage: final  (with correction) ---
+
+--- Juror score histograms for stage: ALL  (without correction) ---
+
+--- Juror score histograms for stage: ALL  (with correction) ---
+
+--- Stage Ranking 1 (   scores without correction) ---
+1. Kevin Chen (22.93)->(22.82) (+0)
+2. Eric Guo (22.78)->(22.59) (+0)
+3. Tianyao Lyu (22.06)->(21.88) (+1)
+4. Miyu Shindo (21.92)->(21.82) (+2)
+5. Shiori Kuwahara (22.03)->(21.71) (+0)
+6. Eric Lu (21.82)->(21.67) (+1)
+7. Vincent Ong (22.07)->(21.53) (-4)
+8. Yifan Wu (21.47)->(21.47) (+0)
+9. Nathalia Milstein (21.26)->(21.12) (+2)
+10. Hao Rao (21.27)->(21.12) (+0)
+11. Hyuk Lee (21.13)->(21.06) (+2)
+12. Hyo Lee (21.13)->(21.06) (+0)
+13. Adam Kałduński (21.44)->(21.00) (-4)
+14. Philipp Lynov (21.00)->(21.00) (+3)
+15. Anthony Ratinov (21.06)->(20.94) (-1)
+16. Piotr Alexewicz (21.02)->(20.88) (+0)
+17. Zitong Wang (21.03)->(20.81) (-2)
+18. Tomoharu Ushida (20.81)->(20.75) (+2)
+19. Xiaoxuan Li (20.88)->(20.69) (+0)
+20. Piotr Pawlak (20.92)->(20.59) (-2)
+21. Jacky Zhang (20.75)->(20.59) (+0)
+22. Yehuda Prokopowicz (20.73)->(20.59) (+0)
+23. Zihan Jin (20.53)->(20.53) (+1)
+24. Ruben Micieli (20.61)->(20.47) (-1)
+25. Xuehong Chen (20.40)->(20.41) (+3)
+26. Yang (Jack) Gao (20.51)->(20.35) (+0)
+27. David Khrikuli (20.52)->(20.29) (-2)
+28. Jonas Aumiller (20.46)->(20.29) (-1)
+29. William Yang (20.22)->(20.25) (+2)
+30. Zixi Chen (20.25)->(20.24) (+0)
+31. Yanyan Bao (20.35)->(20.00) (-2)
+32. Kwanwook Lee (19.87)->(19.88) (+1)
+33. Yumeka Nakagawa (19.78)->(19.82) (+2)
+34. Zhexiang Li (19.89)->(19.82) (-2)
+35. Tianyou Li (19.69)->(19.76) (+2)
+36. Kai-Min Chang (19.59)->(19.69) (+4)
+37. Xiaoyu Hu (19.60)->(19.65) (+2)
+38. Tiankun Ma (19.45)->(19.65) (+3) (PROMOTION!)
+39. Gabriele Strata (19.84)->(19.65) (-5)
+40. Yubo Deng (19.72)->(19.62) (-4)
+--------------------------------------------------------------------------------
+41. Miki Yamagata (19.61)->(19.47) (-3) (NO PROMOTION!)
+42. Shushi Kyomasu (19.30)->(19.35) (+2)
+43. Jun Shimada (19.25)->(19.24) (+2)
+44. Viet Trung Nguyen (19.37)->(19.21) (-1)
+45. Hoi Leong Cheong (19.39)->(19.19) (-3)
+46. Luwangzi Li (19.03)->(19.12) (+1)
+47. Andrzej Wierciński (19.02)->(19.06) (+3)
+48. Mateusz Dubiel (19.12)->(19.06) (-2)
+49. Mateusz Krzyżowski (19.03)->(18.94) (-1)
+50. Alberto Ferro (18.98)->(18.94) (+1)
+51. Mana Shoji (18.93)->(18.94) (+3)
+52. Wei-Ting Hsieh (19.02)->(18.88) (-3)
+53. Yichen Yu (18.79)->(18.82) (+4)
+54. Shuguang Gong (18.91)->(18.81) (+1)
+55. Yuya Nishimoto (18.84)->(18.81) (+1)
+56. Kaito Kobayashi (18.96)->(18.76) (-4)
+57. Xuanyi Mao (18.56)->(18.76) (+4)
+58. Hanyuan Zhu (18.59)->(18.75) (+2)
+59. Yuewen Yu (18.46)->(18.71) (+5)
+60. Fanze Yang (18.95)->(18.71) (-7)
+61. Diana Cooper (18.71)->(18.71) (-3)
+62. Maiqi Wu (18.66)->(18.62) (-3)
+63. Hasan Ignatov (18.51)->(18.53) (-1)
+64. Jan Widlarz (18.50)->(18.50) (-1)
+65. Yuanfan Yang (18.38)->(18.41) (+2)
+66. Ziye Tao (18.41)->(18.31) (-1)
+67. Jingting Zhu (18.33)->(18.31) (+1)
+68. Victoria Wong (18.29)->(18.31) (+1)
+69. Krzysztof Wierciński (18.40)->(18.29) (-3)
+70. Eva Strejcova (18.11)->(18.18) (+0)
+71. Michał Basista (17.87)->(17.94) (+0)
+72. Athena Deng (17.80)->(17.94) (+0)
+73. Yu-Ang Fan (17.71)->(17.82) (+2)
+74. Andrey Zenin (17.78)->(17.76) (-1)
+75. Zuzanna Sejbuk (17.72)->(17.76) (-1)
+76. Antoni Kłeczek (17.64)->(17.53) (+0)
+77. Ryota Yamazaki (17.54)->(17.53) (+2)
+78. Yulia Nakashima (17.56)->(17.53) (+0)
+79. Arisa Onoda (17.63)->(17.50) (-2)
+80. Yonghuan Zhong (17.33)->(17.44) (+0)
+81. Ryan Wang (17.07)->(17.12) (+1)
+82. Hao-Wei Lin (17.22)->(16.94) (-1)
+83. Chun Lam U (15.79)->(15.56) (+0)
+84. Pedro Lopez Salas (15.33)->(15.24) (+0)
+
+--- Stage Ranking 2 (scores without correction) ---
+1. Eric Lu (22.67)->(22.51) (+0)
+2. Kevin Chen (22.57)->(22.41) (+0)
+3. William Yang (21.73)->(21.47) (+0)
+4. Shiori Kuwahara (21.50)->(21.29) (+0)
+5. Vincent Ong (21.48)->(21.24) (+0)
+6. Tianyao Lyu (21.16)->(21.17) (+1)
+7. Tianyou Li (21.21)->(21.12) (-1)
+8. Eric Guo (21.06)->(21.06) (+3)
+9. Tomoharu Ushida (21.00)->(21.06) (+3)
+10. Miyu Shindo (21.15)->(21.04) (-2)
+11. Hyuk Lee (20.89)->(20.93) (+3)
+12. Hyo Lee (20.89)->(20.89) (+3)
+13. Piotr Alexewicz (21.06)->(20.88) (-3)
+14. Yang (Jack) Gao (20.98)->(20.81) (-1)
+15. David Khrikuli (21.10)->(20.79) (-6)
+16. Yifan Wu (20.66)->(20.69) (+2)
+17. Zitong Wang (20.79)->(20.64) (-1)
+18. Piotr Pawlak (20.69)->(20.59) (-1)
+19. Xiaoxuan Li (20.47)->(20.38) (+0)
+20. Yehuda Prokopowicz (20.47)->(20.34) (+0)
+--------------------------------------------------------------------------------
+21. Kai-Min Chang (20.24)->(20.30) (+2)
+22. Anthony Ratinov (20.41)->(20.28) (-1)
+23. Gabriele Strata (20.39)->(20.18) (-1)
+24. Xuehong Chen (20.05)->(20.04) (+2)
+25. Adam Kałduński (20.24)->(20.04) (-1)
+26. Miki Yamagata (20.13)->(20.01) (-1)
+27. Jonas Aumiller (20.00)->(19.92) (+0)
+28. Yumeka Nakagawa (19.92)->(19.91) (+0)
+29. Hao Rao (19.79)->(19.84) (+1)
+30. Nathalia Milstein (19.86)->(19.68) (-1)
+31. Philipp Lynov (19.40)->(19.60) (+3)
+32. Zixi Chen (19.58)->(19.54) (-1)
+33. Ruben Micieli (19.57)->(19.52) (-1)
+34. Zihan Jin (19.56)->(19.50) (-1)
+35. Zhexiang Li (19.32)->(19.41) (+1)
+36. Jacky Zhang (19.38)->(19.39) (-1)
+37. Yanyan Bao (19.28)->(19.30) (+1)
+38. Yubo Deng (19.28)->(19.23) (-1)
+39. Xiaoyu Hu (19.05)->(19.15) (+1)
+40. Kwanwook Lee (19.06)->(19.14) (-1)
+
+--- Stage Ranking 3 (scores without correction) ---
+1. Eric Lu (23.09)->(22.98) (+0)
+2. Kevin Chen (22.43)->(22.17) (+0)
+3. Zitong Wang (22.20)->(22.03) (+0)
+4. Tianyou Li (21.73)->(21.68) (+0)
+5. Tianyao Lyu (21.36)->(21.28) (+1)
+6. Shiori Kuwahara (21.41)->(21.26) (-1)
+7. Miyu Shindo (21.10)->(21.06) (+0)
+8. William Yang (20.98)->(20.99) (+0)
+9. Hyo Lee (20.82)->(20.84) (+3) (PROMOTION!)
+10. Piotr Alexewicz (20.84)->(20.80) (+1)
+11. Tomoharu Ushida (20.70)->(20.75) (+2) (PROMOTION!)
+--------------------------------------------------------------------------------
+12. Vincent Ong (20.84)->(20.71) (-2) (NO PROMOTION!)
+13. David Khrikuli (20.86)->(20.64) (-4) (NO PROMOTION!)
+14. Hyuk Lee (20.29)->(20.37) (+0)
+15. Yang (Jack) Gao (20.20)->(20.24) (+0)
+16. Eric Guo (20.02)->(20.14) (+2)
+17. Yifan Wu (20.07)->(20.14) (-1)
+18. Xiaoxuan Li (20.04)->(20.03) (-1)
+19. Yehuda Prokopowicz (19.79)->(19.86) (+0)
+20. Piotr Pawlak (19.73)->(19.81) (+0)
+
+--- Stage Ranking final (scores without correction) ---
+1. Eric Lu (22.43)->(22.40) (+0)
+2. Kevin Chen (22.15)->(22.03) (+0)
+3. Zitong Wang (21.45)->(21.38) (+0)
+4. Tianyao Lyu (21.30)->(21.22) (+0)
+5. Shiori Kuwahara (21.30)->(21.11) (+0)
+6. Piotr Alexewicz (21.03)->(20.99) (+0)
+7. Vincent Ong (21.01)->(20.91) (+0)
+8. William Yang (20.91)->(20.84) (+0)
+9. Tianyou Li (20.72)->(20.71) (+1)
+10. David Khrikuli (20.84)->(20.66) (-1)
+11. Miyu Shindo (20.63)->(20.55) (+0)
+--------------------------------------------------------------------------------
+
+
+--- Juror correction analysis for stage: All stages ---
+(Number of participants in the stage: 155)
+- Dang Thai Son: 62 (40.00%) too low: 29 (18.71%), too high: 15 (9.68%)
+- Garrick Ohlsson: 61 (39.35%) too low: 39 (25.16%), too high: 22 (14.19%)
+- Krzysztof Jabłoński: 61 (39.35%) too low: 54 (34.84%), too high: 7 (4.52%)
+- John Allison: 60 (38.71%) too low: 43 (27.74%), too high: 17 (10.97%)
+- Ewa Pobłocka: 52 (33.55%) too low: 26 (16.77%), too high: 18 (11.61%)
+- Nelson Goerner: 46 (29.68%) too low: 19 (12.26%), too high: 27 (17.42%)
+- Akiko Ebi: 42 (27.10%) too low: 12 (7.74%), too high: 30 (19.35%)
+- Michel Beroff: 41 (26.45%) too low: 8 (5.16%), too high: 33 (21.29%)
+- K. Popowa-Zydroń: 40 (25.81%) too low: 18 (11.61%), too high: 13 (8.39%)
+- Sa Chen: 39 (25.16%) too low: 4 (2.58%), too high: 35 (22.58%)
+- Robert McDonald: 38 (24.52%) too low: 8 (5.16%), too high: 15 (9.68%)
+- Kevin Kenner: 35 (22.58%) too low: 13 (8.39%), too high: 19 (12.26%)
+- Piotr Paleczny: 33 (21.29%) too low: 11 (7.10%), too high: 18 (11.61%)
+- John Rink: 31 (20.00%) too low: 11 (7.10%), too high: 20 (12.90%)
+- Yulianna Avdeeva: 30 (19.35%) too low: 9 (5.81%), too high: 21 (13.55%)
+- Momo Kodama: 28 (18.06%) too low: 7 (4.52%), too high: 21 (13.55%)
+- Wojciech Świtała: 22 (14.19%) too low: 15 (9.68%), too high: 4 (2.58%)
+
+
+--- Juror correction analysis for stage: 1 ---
+(Number of participants in the stage: 84)
+- John Allison: 32 (38.10%) too low: 28 (33.33%), too high: 4 (4.76%)
+- Krzysztof Jabłoński: 31 (36.90%) too low: 29 (34.52%), too high: 2 (2.38%)
+- Dang Thai Son: 28 (33.33%) too low: 11 (13.10%), too high: 7 (8.33%)
+- Garrick Ohlsson: 27 (32.14%) too low: 15 (17.86%), too high: 12 (14.29%)
+- Sa Chen: 23 (27.38%) too low: 0 (0.00%), too high: 23 (27.38%)
+- Nelson Goerner: 19 (22.62%) too low: 12 (14.29%), too high: 7 (8.33%)
+- Robert McDonald: 17 (20.24%) too low: 2 (2.38%), too high: 9 (10.71%)
+- Kevin Kenner: 16 (19.05%) too low: 5 (5.95%), too high: 8 (9.52%)
+- Ewa Pobłocka: 16 (19.05%) too low: 7 (8.33%), too high: 5 (5.95%)
+- K. Popowa-Zydroń: 16 (19.05%) too low: 3 (3.57%), too high: 8 (9.52%)
+- Akiko Ebi: 15 (17.86%) too low: 0 (0.00%), too high: 15 (17.86%)
+- Michel Beroff: 14 (16.67%) too low: 6 (7.14%), too high: 8 (9.52%)
+- John Rink: 13 (15.48%) too low: 7 (8.33%), too high: 6 (7.14%)
+- Yulianna Avdeeva: 11 (13.10%) too low: 0 (0.00%), too high: 11 (13.10%)
+- Piotr Paleczny: 11 (13.10%) too low: 1 (1.19%), too high: 8 (9.52%)
+- Wojciech Świtała: 10 (11.90%) too low: 7 (8.33%), too high: 0 (0.00%)
+- Momo Kodama: 9 (10.71%) too low: 0 (0.00%), too high: 9 (10.71%)
+
+
+--- Juror correction analysis for stage: 2 ---
+(Number of participants in the stage: 40)
+- Ewa Pobłocka: 24 (60.00%) too low: 11 (27.50%), too high: 11 (27.50%)
+- Dang Thai Son: 23 (57.50%) too low: 13 (32.50%), too high: 6 (15.00%)
+- Krzysztof Jabłoński: 22 (55.00%) too low: 20 (50.00%), too high: 2 (5.00%)
+- John Allison: 18 (45.00%) too low: 12 (30.00%), too high: 6 (15.00%)
+- Garrick Ohlsson: 16 (40.00%) too low: 10 (25.00%), too high: 6 (15.00%)
+- Piotr Paleczny: 16 (40.00%) too low: 8 (20.00%), too high: 7 (17.50%)
+- Michel Beroff: 15 (37.50%) too low: 2 (5.00%), too high: 13 (32.50%)
+- Akiko Ebi: 15 (37.50%) too low: 6 (15.00%), too high: 9 (22.50%)
+- Nelson Goerner: 15 (37.50%) too low: 5 (12.50%), too high: 10 (25.00%)
+- K. Popowa-Zydroń: 14 (35.00%) too low: 11 (27.50%), too high: 1 (2.50%)
+- Momo Kodama: 13 (32.50%) too low: 7 (17.50%), too high: 6 (15.00%)
+- Robert McDonald: 12 (30.00%) too low: 4 (10.00%), too high: 4 (10.00%)
+- Kevin Kenner: 10 (25.00%) too low: 5 (12.50%), too high: 5 (12.50%)
+- Wojciech Świtała: 10 (25.00%) too low: 7 (17.50%), too high: 3 (7.50%)
+- Yulianna Avdeeva: 9 (22.50%) too low: 0 (0.00%), too high: 9 (22.50%)
+- John Rink: 9 (22.50%) too low: 3 (7.50%), too high: 6 (15.00%)
+- Sa Chen: 7 (17.50%) too low: 0 (0.00%), too high: 7 (17.50%)
+
+
+--- Juror correction analysis for stage: 3 ---
+(Number of participants in the stage: 20)
+- Garrick Ohlsson: 13 (65.00%) too low: 9 (45.00%), too high: 4 (20.00%)
+- Akiko Ebi: 8 (40.00%) too low: 3 (15.00%), too high: 5 (25.00%)
+- Ewa Pobłocka: 8 (40.00%) too low: 5 (25.00%), too high: 1 (5.00%)
+- Michel Beroff: 7 (35.00%) too low: 0 (0.00%), too high: 7 (35.00%)
+- Dang Thai Son: 7 (35.00%) too low: 5 (25.00%), too high: 0 (0.00%)
+- Nelson Goerner: 7 (35.00%) too low: 1 (5.00%), too high: 6 (30.00%)
+- John Allison: 6 (30.00%) too low: 2 (10.00%), too high: 4 (20.00%)
+- Robert McDonald: 6 (30.00%) too low: 2 (10.00%), too high: 1 (5.00%)
+- John Rink: 6 (30.00%) too low: 0 (0.00%), too high: 6 (30.00%)
+- Krzysztof Jabłoński: 5 (25.00%) too low: 4 (20.00%), too high: 1 (5.00%)
+- Kevin Kenner: 5 (25.00%) too low: 2 (10.00%), too high: 3 (15.00%)
+- K. Popowa-Zydroń: 5 (25.00%) too low: 2 (10.00%), too high: 2 (10.00%)
+- Momo Kodama: 4 (20.00%) too low: 0 (0.00%), too high: 4 (20.00%)
+- Piotr Paleczny: 3 (15.00%) too low: 1 (5.00%), too high: 1 (5.00%)
+- Yulianna Avdeeva: 2 (10.00%) too low: 1 (5.00%), too high: 1 (5.00%)
+- Sa Chen: 2 (10.00%) too low: 1 (5.00%), too high: 1 (5.00%)
+- Wojciech Świtała: 1 (5.00%) too low: 0 (0.00%), too high: 1 (5.00%)
+
+
+--- Juror correction analysis for stage: final ---
+(Number of participants in the stage: 11)
+- Yulianna Avdeeva: 8 (72.73%) too low: 8 (72.73%), too high: 0 (0.00%)
+- Sa Chen: 7 (63.64%) too low: 3 (27.27%), too high: 4 (36.36%)
+- Garrick Ohlsson: 5 (45.45%) too low: 5 (45.45%), too high: 0 (0.00%)
+- Michel Beroff: 5 (45.45%) too low: 0 (0.00%), too high: 5 (45.45%)
+- Nelson Goerner: 5 (45.45%) too low: 1 (9.09%), too high: 4 (36.36%)
+- K. Popowa-Zydroń: 5 (45.45%) too low: 2 (18.18%), too high: 2 (18.18%)
+- John Allison: 4 (36.36%) too low: 1 (9.09%), too high: 3 (27.27%)
+- Dang Thai Son: 4 (36.36%) too low: 0 (0.00%), too high: 2 (18.18%)
+- Akiko Ebi: 4 (36.36%) too low: 3 (27.27%), too high: 1 (9.09%)
+- Kevin Kenner: 4 (36.36%) too low: 1 (9.09%), too high: 3 (27.27%)
+- Ewa Pobłocka: 4 (36.36%) too low: 3 (27.27%), too high: 1 (9.09%)
+- Krzysztof Jabłoński: 3 (27.27%) too low: 1 (9.09%), too high: 2 (18.18%)
+- Robert McDonald: 3 (27.27%) too low: 0 (0.00%), too high: 1 (9.09%)
+- Piotr Paleczny: 3 (27.27%) too low: 1 (9.09%), too high: 2 (18.18%)
+- John Rink: 3 (27.27%) too low: 1 (9.09%), too high: 2 (18.18%)
+- Momo Kodama: 2 (18.18%) too low: 0 (0.00%), too high: 2 (18.18%)
+- Wojciech Świtała: 1 (9.09%) too low: 1 (9.09%), too high: 0 (0.00%)
