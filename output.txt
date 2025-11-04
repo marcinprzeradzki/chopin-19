@@ -103,7 +103,7 @@ Michel Beroff        21.00 25.00 22.45   1.57
 
 --- Juror score histograms for stage: ALL  (with correction) ---
 
---- Stage Ranking 1 (   scores without correction) ---
+--- Stage Ranking 1 (scores without correction) ---
 1. Kevin Chen (22.93)->(22.82) (+0)
 2. Eric Guo (22.78)->(22.59) (+0)
 3. Tianyao Lyu (22.06)->(21.88) (+1)

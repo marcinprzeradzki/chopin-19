@@ -208,8 +208,44 @@ def calculate_stage_score(dataframe):
     return dataframe
 
 
+def calculate_juror_correlation_matrix(df_dane, stages_to_analyze):
+    """
+    Calculates and returns the correlation matrix of scores between jurors for the given stages.
+    """
+    if stages_to_analyze:
+        df_dane = df_dane[df_dane['stage'].isin(stages_to_analyze)]
+
+    juror_columns = [col for col in df_dane.columns if col not in ['Nr', 'Name and Surname', 'type', 'stage', 'average score', 'stage score']]
+    correlation_matrix = df_dane[juror_columns].corr()
+
+    # Calculate the mean correlation for each juror, excluding the diagonal
+    corr_copy = correlation_matrix.copy()
+    for col in corr_copy.columns:
+        corr_copy.loc[col, col] = None
+    mean_corr = corr_copy.mean()
+    correlation_matrix.loc['Average'] = mean_corr
+
+    return correlation_matrix
+
+
+def style_correlation_matrix(corr_matrix):
+    """
+    Applies background gradient styling to a correlation matrix.
+    """
+    s = corr_matrix.style.background_gradient(cmap='RdYlGn_r', vmin=0, vmax=1).format("{:.3f}")
+    s.set_table_styles([{'selector': '', 'props': [('font-family', 'sans-serif')]},
+                        {'selector': 'h1', 'props': [('font-family', 'sans-serif')]},
+                        {'selector': 'p', 'props': [('font-family', 'sans-serif')]},
+                        {'selector': 'td', 'props': [('text-align', 'right'), ('white-space', 'nowrap')]},
+                        {'selector': 'th.row_heading', 'props': [('text-align', 'left'), ('white-space', 'nowrap'), ('min-width', '150px')]},
+                        {'selector': 'th.col_heading', 'props': [('text-align', 'right')]},
+                        {'selector': 'tr:last-child', 'props': [('height', '40px'), ('font-weight',  'bold'), ('color', 'black')]}])
+    return s.to_html()
+
+
 def analyze_and_visualize(df_punkty, df_korekta):
     """Analyzes and visualizes the data."""
+
     stages = sorted(df_punkty['stage'].unique())
 
     promotion_config = {
@@ -232,6 +268,7 @@ def analyze_and_visualize(df_punkty, df_korekta):
         if stage in promotion_config:
             stage_punkty_df = df_punkty[df_punkty['stage'] == stage]
             stage_korekta_df = df_korekta[df_korekta['stage'] == stage]
+
             num_to_promote = promotion_config[stage]
             print_stage_ranking(stage, stage_punkty_df, stage_korekta_df, num_to_promote)
 
@@ -241,10 +278,39 @@ def analyze_and_visualize(df_punkty, df_korekta):
     stages = sorted(df_korekta_analysis['stage'].unique())
     generate_analysis_for_stages(df_punkty_analysis, df_korekta_analysis, stages)
 
+    with open("html/corr_punkty.html", "w", encoding='utf-8') as f:
+        f.write("<h1>Juror Correlation Matrix (before correction)</h1>")
+
+    correlation_calc_and_print(df_punkty, ['1', '2', '3', 'final'])
+    correlation_calc_and_print(df_punkty, ['1'])
+    correlation_calc_and_print(df_punkty, ['2'])
+    correlation_calc_and_print(df_punkty, ['3'])
+    correlation_calc_and_print(df_punkty, ['final'])
+
+
+def correlation_calc_and_print(df_punkty, stages_for_correlation):
+    corr_punkty = calculate_juror_correlation_matrix(df_punkty, stages_for_correlation)
+    toHtmlFile(corr_punkty, stages_for_correlation)
+
+
+def toHtmlFile(corr_punkty, stages):
+    styled_corr_punkty = style_correlation_matrix(corr_punkty)
+    html_output = f"""
+<html><head><meta charset="UTF-8"></head>
+<body>
+<p>Stage: {", ".join(stages)}</p>
+{styled_corr_punkty}
+</body></html>'
+"""
+    with open("html/corr_punkty.html", "a+", encoding='utf-8') as f:
+        f.write(html_output)
+
+
 def main():
     """Main function to load, clean, and analyze data."""
     try:
         df = pd.read_csv('chopin_competition_scores.csv', delimiter=',', na_values=0.0)
+        df.columns = df.columns.str.strip()
         df.rename(columns={'Imię i Nazwisko': 'Name and Surname', 'typ': 'type', 'średnia ocena': 'average score', 'wynik etapu': 'stage score'}, inplace=True)
         df['type'] = df['type'].replace({'punkty': 'points', 'korekta': 'correction'})
         score_columns = df.columns[4:]

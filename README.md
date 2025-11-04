@@ -26,6 +26,9 @@ This repository contains a Python script to analyze the Chopin Competition 2025 
 - [Final Stage Histograms](histograms/stage_final_histograms_korekta.png)
 - [All Stages Histograms](histograms/stage_ALL_histograms_korekta.png)
 
+### [Jurors correlations](https://marcinprzeradzki.github.io/chopin-19/corr_punkty.html)
+
+
 ## How to Run
 
 For those not familiar with Python, here are the steps to run the analysis on your own computer:
