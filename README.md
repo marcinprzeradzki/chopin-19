@@ -26,8 +26,12 @@ This repository contains a Python script to analyze the Chopin Competition 2025 
 - [Final Stage Histograms](histograms/stage_final_histograms_korekta.png)
 - [All Stages Histograms](histograms/stage_ALL_histograms_korekta.png)
 
-### [Jurors correlations](https://marcinprzeradzki.github.io/chopin-19/html/corr_punkty.html)
-
+### [Jurors correlations](html/corr_punkty.html)
+- [Stage 1 Dendrogram](img/dendrogram_1.png)
+- [Stage 2 Dendrogram](img/dendrogram_2.png)
+- [Stage 3 Dendrogram](img/dendrogram_3.png)
+- [Final Stage Dendrogram](img/dendrogram_final.png)
+- [All Stages Dendrogram](img/dendrogram_1_2_3_final.png)
 
 ## How to Run
 
