@@ -1,5 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+from scipy.cluster import hierarchy
+from scipy.spatial.distance import squareform
+import numpy as np
 
 
 def plot_juror_histograms_for_stage_korekta(stage_name, stage_punkty_df, stage_korekta_df):
@@ -243,6 +247,48 @@ def style_correlation_matrix(corr_matrix):
     return s.to_html()
 
 
+def perform_cluster_analysis(corr_matrix, stages, correlation_threshold):
+    """
+    Performs cluster analysis on the correlation matrix and identifies groups of jurors.
+    """
+    distance_matrix = 1 - corr_matrix
+    condensed_distance_matrix = squareform(distance_matrix)
+    linked = hierarchy.linkage(condensed_distance_matrix, 'average')
+
+    plt.figure(figsize=(10, 7))
+    dendrogram = hierarchy.dendrogram(linked,
+                                      orientation='top',
+                                      labels=corr_matrix.index,
+                                      distance_sort='descending',
+                                      show_leaf_counts=True)
+    plt.title(f'Juror Clustering For Stage {stages}')
+    plt.xlabel('Juror')
+    plt.ylabel('Correlation')
+    ax = plt.gca()
+    yticks = ax.get_yticks()
+    ax.set_yticks(yticks)
+    ax.set_yticklabels([f'{1 - x:.2f}' for x in yticks])
+    plt.setp(ax.get_xticklabels(), rotation=45, ha='right')
+    plt.tight_layout()
+    stage_str = "_".join(stages)
+    plt.savefig(f'img/dendrogram_{stage_str}.png')
+    plt.close()
+
+    distance_threshold = 1 - correlation_threshold
+    clusters = hierarchy.fcluster(linked, distance_threshold, criterion='distance')
+
+    # Group jurors by cluster
+    grouped_jurors = {}
+    clusters_list = clusters.tolist()
+    for juror, cluster_id in zip(corr_matrix.index, clusters_list):
+        if cluster_id not in grouped_jurors:
+            grouped_jurors[cluster_id] = []
+        grouped_jurors[cluster_id].append(juror)
+
+    print(f"\nJuror groups for stage {", ".join(stages)} at correlation threshold: {correlation_threshold}")
+    for cluster_id, jurors in sorted(grouped_jurors.items()):
+        print(f"  Group {cluster_id}: {", ".join(jurors)}")
+
 def analyze_and_visualize(df_punkty, df_korekta):
     """Analyzes and visualizes the data."""
 
@@ -281,16 +327,18 @@ def analyze_and_visualize(df_punkty, df_korekta):
     with open("html/corr_punkty.html", "w", encoding='utf-8') as f:
         f.write("<h1>Juror Correlation Matrix (before correction)</h1>")
 
-    correlation_calc_and_print(df_punkty, ['1', '2', '3', 'final'])
-    correlation_calc_and_print(df_punkty, ['1'])
-    correlation_calc_and_print(df_punkty, ['2'])
-    correlation_calc_and_print(df_punkty, ['3'])
-    correlation_calc_and_print(df_punkty, ['final'])
+    correlation_calc_and_print(df_punkty, ['1', '2', '3', 'final'], .3)
+    correlation_calc_and_print(df_punkty, ['1'], .4)
+    correlation_calc_and_print(df_punkty, ['2'], .3)
+    correlation_calc_and_print(df_punkty, ['3'], .3)
+    correlation_calc_and_print(df_punkty, ['final'], .2)
 
-
-def correlation_calc_and_print(df_punkty, stages_for_correlation):
+def correlation_calc_and_print(df_punkty, stages_for_correlation, correlation_threshold):
     corr_punkty = calculate_juror_correlation_matrix(df_punkty, stages_for_correlation)
     toHtmlFile(corr_punkty, stages_for_correlation)
+
+    corr_punkty_for_clustering = corr_punkty.drop('Average')
+    perform_cluster_analysis(corr_punkty_for_clustering, stages_for_correlation,  correlation_threshold)
 
 
 def toHtmlFile(corr_punkty, stages):

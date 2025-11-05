@@ -374,3 +374,47 @@ Michel Beroff        21.00 25.00 22.45   1.57
 - John Rink: 3 (27.27%) too low: 1 (9.09%), too high: 2 (18.18%)
 - Momo Kodama: 2 (18.18%) too low: 0 (0.00%), too high: 2 (18.18%)
 - Wojciech Świtała: 1 (9.09%) too low: 1 (9.09%), too high: 0 (0.00%)
+
+Juror groups for stage 1, 2, 3, final at correlation threshold: 0.3
+  Group 1: Garrick Ohlsson
+  Group 2: Yulianna Avdeeva
+  Group 3: Ewa Pobłocka, K. Popowa-Zydroń
+  Group 4: Krzysztof Jabłoński, Kevin Kenner, Robert McDonald
+  Group 5: Dang Thai Son, Akiko Ebi
+  Group 6: John Allison, Michel Beroff, Nelson Goerner, Momo Kodama, John Rink, Wojciech Świtała
+  Group 7: Piotr Paleczny
+  Group 8: Sa Chen
+
+Juror groups for stage 1 at correlation threshold: 0.4
+  Group 1: Garrick Ohlsson, K. Popowa-Zydroń
+  Group 2: Yulianna Avdeeva, Michel Beroff
+  Group 3: Akiko Ebi, Nelson Goerner, Momo Kodama, Piotr Paleczny, John Rink, Wojciech Świtała
+  Group 4: Kevin Kenner, Robert McDonald, Ewa Pobłocka
+  Group 5: Sa Chen
+  Group 6: Dang Thai Son
+  Group 7: Krzysztof Jabłoński
+  Group 8: John Allison
+
+Juror groups for stage 2 at correlation threshold: 0.3
+  Group 1: Dang Thai Son, Akiko Ebi
+  Group 2: Nelson Goerner, Momo Kodama, John Rink
+  Group 3: Piotr Paleczny, K. Popowa-Zydroń, Wojciech Świtała
+  Group 4: Sa Chen, Ewa Pobłocka
+  Group 5: Michel Beroff, Krzysztof Jabłoński, Kevin Kenner
+  Group 6: Robert McDonald
+  Group 7: John Allison, Yulianna Avdeeva
+  Group 8: Garrick Ohlsson
+
+Juror groups for stage 3 at correlation threshold: 0.3
+  Group 1: John Allison, Yulianna Avdeeva, Nelson Goerner
+  Group 2: Michel Beroff, Akiko Ebi, Momo Kodama
+  Group 3: Dang Thai Son, Krzysztof Jabłoński, Piotr Paleczny
+  Group 4: Sa Chen, Kevin Kenner, Robert McDonald, Ewa Pobłocka, K. Popowa-Zydroń, John Rink, Wojciech Świtała
+  Group 5: Garrick Ohlsson
+
+Juror groups for stage final at correlation threshold: 0.2
+  Group 1: Dang Thai Son, Akiko Ebi, Nelson Goerner, Momo Kodama, John Rink
+  Group 2: Krzysztof Jabłoński, Kevin Kenner, Piotr Paleczny, Ewa Pobłocka
+  Group 3: John Allison, Yulianna Avdeeva
+  Group 4: Garrick Ohlsson, Michel Beroff, Robert McDonald, K. Popowa-Zydroń, Wojciech Świtała
+  Group 5: Sa Chen
